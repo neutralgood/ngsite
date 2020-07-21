@@ -8,55 +8,65 @@ body {
 }
 
 h1 {
+  color: #3e432e;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 10px;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
+  color: #3e432e;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 h3 {
+  color: #231903;
   font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #231903;
 }
 /****CLASS****/
 
 .top-container {
-  background-color: #d1f5d3;
+  background-color: #f5f1da;
+  line-height: 2;
   padding-top: 100px;
   position: relative;
+}
+
+.top-cloud {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  right: 240px;
+  top: 10px;
+}
+
+.bottom-cloud {
+  height: 120px;
+  width: 120px;
+  bottom: 240px;
+  left: 240px;
+  position: absolute;
+}
+
+.mountains {
+  height: 360px;
+  width: 360px;
+}
+
+.middle-container {
+  background-color: #e3dfc8;
 }
 
 .avatar {
   border-radius: 50%;
   height: 200px;
   width:200px;
-}
-
-.dev {
-  text-decoration: underline;
-}
-
-.bottom-cloud {
-  bottom: 300px;
-  left: 300px;
-  position: absolute;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.top-header {
-  position: relative;
-  top: 20%;
-}
-
-.middle-container {
-  background-color: #e3dfc8;
-
 }
 
 .skill-img {

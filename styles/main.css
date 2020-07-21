@@ -27,6 +27,12 @@ h3 {
   position: relative;
 }
 
+.avatar {
+  border-radius: 50%;
+  height: 200px;
+  width:200px;
+}
+
 .dev {
   text-decoration: underline;
 }
@@ -50,14 +56,17 @@ h3 {
 
 .middle-container {
   background-color: #e3dfc8;
+
+}
+
+.skill-img {
   height: 200px;
   width: 200px;
 }
 
 .bottom-container {
   background-color: #96bb7c;
-  height: 200px;
-  width: 200px;
+
 }
 
 /****ID****/

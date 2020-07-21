@@ -1,21 +1,42 @@
 /****ELEMENT****/
+
 body {
   background-color: #9dc6a7;
-  margin: 0;
+  margin-top: 0;
+  text-align: center;
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 /****CLASS****/
 
 .top-container {
   background-color: #d1f5d3;
+  padding-top: 100px;
+  position: relative;
 }
 
 .dev {
   text-decoration: underline;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-header {
+  position: relative;
+  top: 20%;
 }
 
 .middle-container {
